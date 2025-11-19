@@ -1,0 +1,13 @@
+{
+  "name": "ci-cd-ejemplo",
+  "version": "1.0.0",
+  "description": "Proyecto demostración de CI/CD con pruebas unitarias y build.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "node build.js"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
